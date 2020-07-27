@@ -1,0 +1,52 @@
+CREATE TABLE [dbo].[Chaniya Choli] (
+    [Circular/ flarred lehenga] INT NOT NULL,
+    [Mermaid/Fish-tail lehenga] INT NOT NULL,
+    [Panelled lahenga]          INT NOT NULL,
+    [A-line lehenga]            INT NOT NULL,
+    [Sharara- cut lehenga]      INT NOT NULL,
+    [Lehengas with jacket]      INT NOT NULL,
+    [Half saree lehenga]        INT NOT NULL
+);
+CREATE TABLE [dbo].[Ethnic Dresses] (
+    [Salwar suits] INT NOT NULL,
+    [Anarkali]     INT NOT NULL,
+    [Sharara]      INT NOT NULL,
+    [Straight]     INT NOT NULL
+);
+CREATE TABLE [dbo].[Gown] (
+    [Ball gowns]         INT NOT NULL,
+    [Mermaid gowns ]     INT NOT NULL,
+    [Empire waist gowns] INT NOT NULL,
+    [A- line gowns ]     INT NOT NULL,
+    [trumpet gowns]      INT NOT NULL
+);
+CREATE TABLE [dbo].[Kurtas and Tunics] (
+    [Kaftan style]  INT NOT NULL,
+    [Shirt style]   INT NOT NULL,
+    [Printed]       INT NOT NULL,
+    [Flarred short] INT NOT NULL,
+    [Long straight] INT NOT NULL
+);
+CREATE TABLE [dbo].[Register] (
+    [First Name]      VARCHAR (50) NOT NULL,
+    [Last Name]       VARCHAR (50) NOT NULL,
+    [Email Address]   VARCHAR (50) NOT NULL,
+    [Password]        VARCHAR (50) NOT NULL,
+    [Repeat Password] VARCHAR (50) NOT NULL
+);
+CREATE TABLE [dbo].[Saree] (
+    [Silk Saree]        INT NOT NULL,
+    [Chanderi Saree ]   INT NOT NULL,
+    [Chiffon Saree]     INT NOT NULL,
+    [Chikan Work Saree] INT NOT NULL,
+    [Patola Saree]      INT NOT NULL,
+    [Bandhani Saree]    INT NOT NULL
+);
+CREATE TABLE [dbo].[Table] (
+    [First Name]      VARCHAR (50) NOT NULL,
+    [Last Name]       VARCHAR (50) NOT NULL,
+    [Email Address]   VARCHAR (50) NOT NULL,
+    [Password]        VARCHAR (50) NOT NULL,
+    [Repeat Password] VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([First Name] ASC)
+);
